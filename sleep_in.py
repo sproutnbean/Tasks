@@ -11,7 +11,7 @@ def sleep_in(weekday, vacation):
 arg1 = False
 arg2 = False
 
-#Running Python in IDLE, disconnect this line if neccessary
+#Test argument, running Python in IDLE, disconnect this line if neccessary
 sys.argv = ['sleep_in.py', 'True', 'True']
         
 if ((sys.argv[1]) == 'True'):
