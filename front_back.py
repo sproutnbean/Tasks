@@ -1,6 +1,13 @@
+#Function Definition
 def front_back(str):
   if len(str) <= 1:
     return str;
   
   mid = str[1:-1];
   return str[-1] + mid + str[0];
+
+
+arg1 = 'TROLOLOLOLOLOL'
+
+#Function Call    
+print (front_back(arg1))
