@@ -25,5 +25,5 @@ else:
     arg2 = False
 
 #Function Call    
-print ("Got a Monkey Trouble? " )
+print ("Got Monkey Trouble? " )
 print (monkey_trouble(arg1,arg2))
