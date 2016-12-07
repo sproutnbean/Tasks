@@ -1,0 +1,19 @@
+#Definition
+def string_match(a, b):
+  count = 0
+  shorter = min(len(a), len(b))
+  
+  for i in range(shorter-1):
+    a_sub = a[i:i+2]
+    b_sub = b[i:i+2]
+    if a_sub == b_sub:
+      count = count + 1
+      
+  return count
+
+#input
+arg1 = 'xxcaazz'
+arg2 = 'xxbaaz'
+
+#Function Call
+print (string_match(arg1, arg2))
