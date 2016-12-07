@@ -1,0 +1,14 @@
+#Definition
+def front_times(str, n):
+  if n > -1:
+    if len(str) < 4:
+      return n*str
+    else:
+      return n*str[:3]
+
+#input
+arg1 = 'Yawn'
+arg2 = 5
+
+#Function Call
+print (front_times(arg1, arg2))
