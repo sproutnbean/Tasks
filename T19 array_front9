@@ -1,0 +1,18 @@
+#Definition
+def array_front9(nums):
+  
+  end = len(nums)
+  if end > 4:
+    end = 4
+    
+  for i in range(end):
+    if nums[i] == 9:
+      return True
+      
+  return False
+
+#input
+arg1 = [1, 4, 9, 6, 9]
+
+#Function Call
+print (array_front9(arg1))
