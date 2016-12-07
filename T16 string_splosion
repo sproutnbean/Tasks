@@ -1,0 +1,13 @@
+#Definition
+def string_splosion(str):
+  result = ""
+  if len(str) > 0:
+    for i in range(len(str)):
+      result = result + str[:i+1]
+  return result
+
+#input
+arg1 = 'Yawn'
+
+#Function Call
+print (string_splosion(arg1))
