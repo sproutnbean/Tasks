@@ -1,1 +1,11 @@
+#Definition
+def string_times(str, n):
+  if n > -1:
+    return n*str
 
+#input
+arg1 = 'Yawn'
+arg2 = 5
+
+#Function Call
+print (string_times(arg1, arg2))
